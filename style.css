@@ -23,9 +23,6 @@ main {
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
 
 .step-img1 {
   height: 150px;
@@ -73,17 +70,22 @@ header {
 
 main {
   width: 100%;
+  margin: 50px auto;
   display:flex;
   flex-flow: column;
 }
 
 .step-box {
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
   position: relative;
   background-color: #eee;
 }
 
-
+.step-box:last-child {
+ margin-bottom: 0;
+}
 
 .step-img1 {
   height: 150px;
